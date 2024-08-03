@@ -23,3 +23,8 @@ This repository shares the starter code for the [YouTube Tutorial](https://youtu
 ### Academic Honesty
 
 **DO NOT COPY FOR AN ASSIGNMENT** - Avoid plagiargism and adhere to the spirit of this [Academic Honesty Policy](https://www.freecodecamp.org/news/academic-honesty-policy/).
+
+
+***
+I was finished the task in one day. That is good for exercise. Thank you Dave!
+~Asti
