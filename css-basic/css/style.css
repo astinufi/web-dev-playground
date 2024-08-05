@@ -1,16 +1,24 @@
-*{
+/* *{
     
 }
 
 html{
     font-size: 22px;
-}
+} */
 
-body{
+/* body{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    background : #ffefd5;
+    color: rgb(0, 0, 0);
     
 }
 
-main{
+p{
+    color: #333;
+} */
+/* main{
     font-family: monospace;
 }
 
@@ -28,7 +36,7 @@ h1, h2{
 
 
 p{
-    color: purple!important;
+    color: purple;
 }
 
 p{
@@ -42,4 +50,30 @@ p{
 
 #second{
     font-style: italic;
+} */
+
+/* css unit =================================*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    border: 2px dashed red;
+    width: 50%;
+    font-size: 3rem;
+    padding: 0.5em;
+}
+
+
+main{
+    width: 50vw;
+    background-color: skyblue;
+    font-size: 2rem;
+}
+
+p{
+    font-size: 2rem;
+    width: 40ch;
 }
