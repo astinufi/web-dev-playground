@@ -103,7 +103,7 @@ header{
 
 footer{
     background-color: black;
-    position: sticky;
+    position: fixed;
     font-size: 3rem;
     bottom: 0;
     width: 100%;
