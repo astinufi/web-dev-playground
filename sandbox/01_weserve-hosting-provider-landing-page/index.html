@@ -16,24 +16,24 @@
             <img src="assets/img/logo.svg" alt="Logo WeServe" title="Logo WeServe" width="38" height="38">
             <span>WeServe</span>
         </a>
-        <nav>
+        <nav aria-label="Main Navigation">
             <ul>
-                <li><a href="">Products</a></li>
-                <li><a href="">Services</a></li>
-                <li><a href="">Pricing</a></li>
-                <li><a href="">Testimonials</a></li>
-                <li><a href="">Blog</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">Blog</a></li>
             </ul>
         </nav>
         <div>
-            <a href="#"><i class="far fa-shopping-bag"></i></a>
-            <a href="#">Sign In</a>  
+            <a href="#"><i class="far fa-shopping-bag" aria-hidden="true"></i><span class="sr-only">Shopping Bag</span></a>
+            <a href="#">Sign In</a>
         </div>                       
     </header>
     <main>
         <section>
-            <div>
-                <p><i class="far fa-globe"></i>We host more than 120,000 websites</p>
+            <article>
+                <aside><i class="far fa-globe"></i>We host more than 120,000 websites</aside>
                 <h1>Grow Online Business Faster.</h1>
                 <p>We provide a variety of servers to grow your users<br>
                     acquisition much user-friendly and boosting up sales.</p>
@@ -41,90 +41,300 @@
                     <a href="">Try Free Trial</a>
                     <a href=""><i class="far fa-desktop"></i> Schedule a Demo</a>
                 </div>
-            </div>
+            </article>
             <div>
                 <figure>
                     <img src="assets/img/couple_staring_laptop_740_x_790.png" alt="Couple Staring a Laptop" title="Couple Staring a Laptop">
                     <figcaption>Yout Business Online Grow Faster</figcaption>
                 </figure>      
                 <div>
-                    <i class="far fa-cloud"></i>
+                    <img src="assets/img/cloud-add.svg" alt="Cloud Add Illustration">
                     <div>
                         <p>Super Reliable</p>
                         <p>24/7 Always Active</p>
                     </div>
                 </div>  
                 <div>
-                    <i class="far fa-globe"></i>
+                    <img src="assets/img/global.svg" alt="Globe Illustration">
                 </div>
                 <div>
-                    <i class="fas fa-chart-line"></i>
+                    <img src="assets/img/status-up.svg" alt="Status Up Illustration">
                     <div>
                         <p>+490%</p>
                         <p>Engagements</p>
                     </div>
-                </div>
-                        
+                </div>                        
             </div>
         </section> 
-
-        <section>
+        <section aria-labelledby="partner-logos">
             <figure>
-                <img src="assets/img/logoipsum1.png" alt="Logo Ipsum 1">
+                <img src="assets/img/logoipsum1.svg" alt="Logo Ipsum 1">
                 <figcaption>Logo Ipsum 1</figcaption>
             </figure>
             <figure>
-                <img src="assets/img/logoipsum2.png" alt="Logo Ipsum 2">
+                <img src="assets/img/logoipsum2.svg" alt="Logo Ipsum 2">
                 <figcaption>Logo Ipsum 2</figcaption>
             </figure>
             <figure>
-                <img src="assets/img/logoipsum3.png" alt="Logo Ipsum 3">
+                <img src="assets/img/logoipsum3.svg" alt="Logo Ipsum 3">
                 <figcaption>Logo Ipsum 3</figcaption>
             </figure>
             <figure>
-                <img src="assets/img/logoipsum4.png" alt="Logo Ipsum 4">
+                <img src="assets/img/logoipsum4.svg" alt="Logo Ipsum 4">
                 <figcaption>Logo Ipsum 4</figcaption>
             </figure>
             <figure>
-                <img src="assets/img/logoipsum5.png" alt="Logo Ipsum 5">
+                <img src="assets/img/logoipsum5.svg" alt="Logo Ipsum 5">
                 <figcaption>Logo Ipsum 5</figcaption>
             </figure>
         </section>
-        <section>
+
+        <section aria-labelledby="features">
             <h2>Your Best Choice</h2>
-            <article>
-                <img src="assets/img/extra-layers.svg" alt="Extra Layers Icon">
+            <div>
+                <article>
+                    <img src="assets/img/extra-layers.svg" alt="Extra Layers Icon">
+                    <div>
+                        <h3>Extra Layers</h3>
+                        <p>Making your project more secure avoiding DDoS</p>
+                    </div>
+                    <a href="">Learn More</a>
+                </article>
+                <article>
+                    <img src="assets/img/customizable.svg" alt="Customizable">
+                    <div>
+                        <h3>Customizable</h3>
+                        <p>Only install what your business needs to grow</p>
+                    </div>
+                    <a href="">Learn More</a>
+                </article>
+                <article>
+                    <img src="assets/img/ai-automation.svg" alt="Ai Automation Icon">
+                    <div>
+                        <h3>Ai Automation</h3>
+                        <p>Decide the business flow based on latest reports</p>
+                    </div>
+                    <a href="">Learn More</a>
+                </article>
+                <article>
+                    <img src="assets/img/auto-scaling.svg" alt="Auto Scaling Icon">
+                    <div>
+                        <h3>Auto Scaling</h3>
+                        <p>Have a long weekend without worrying any loss</p>
+                    </div>
+                    <a href="">Learn More</a>
+                </article>
+            </div>
+        </section>
+
+        <section aria-labelledby="ecosystem">
+            <div>
+                <figure>
+                    <img src="assets/img/a_woman_smile.png" alt="A Women Smile Wearing Yellow Shirt" title="A Women Smile Wearing Yellow Shirt">
+                    <figcaption>We Have Very Strong Ecosystem</figcaption>
+                </figure>
                 <div>
-                    <p>Extra Layers</p>
-                    <p>Making your project more secure avoiding DDoS</p>
-                </div>
-                <a href="">Learn More</a>
-            </article>
+                    <img src="assets/img/status-up.svg" alt="Status Up Illustration">
+                    <p>5/5 Growth</p>
+                    <div>                        
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div>
+                        <img src="assets/img/crown.svg" alt="Crown Illustration">
+                    </div>
+                    <div>
+                        <img src="assets/img/message-programming.svg" alt="Crown Illustration">
+                        <div>
+                            <p>AI Automation</p>
+                            <p>Working Faster</p>
+                        </div>                        
+                    </div>
+                </div>   
+            </div>
             <article>
-                <img src="assets/img/customizable.svg" alt="Customizable">
+                <h2>We Have Very Strong Ecosystem</h2>
+                <p>We provide a variety of servers to grow your users
+                    acquisition much user-friendly and boosting up sales.</p>
                 <div>
-                    <p>Customizable</p>
-                    <p>Only install what your business needs to grow</p>
-                </div>
-                <a href="">Learn More</a>
-            </article>
-            <article>
-                <img src="assets/img/ai-automation.svg" alt="Ai Automation Icon">
-                <div>
-                    <p>Ai Automation</p>
-                    <p>Decide the business flow based on latest reports</p>
-                </div>
-                <a href="">Learn More</a>
-            </article>
-            <article>
-                <img src="assets/img/auto-scaling.svg" alt="Auto Scaling Icon">
-                <div>
-                    <p>Auto Scaling</p>
-                    <p>Have a long weekend without worrying any loss</p>
-                </div>
-                <a href="">Learn More</a>
+                    <div>
+                        <img src="assets/img/health.svg" alt="Health Illustration">
+                        <div>
+                            <h3>$880 Mio</h3>
+                            <p>Company budget saved</p>
+                        </div>
+                    </div>                
+                    <div>
+                        <img src="assets/img/cpu-charge.svg" alt="CPU Charge Illustration">
+                        <div>
+                            <h3>450,392</h3>
+                            <p>All servers available</p>
+                        </div>
+                    </div>                
+                    <div>
+                        <img src="assets/img/cloud-add.svg" alt="Cloud Add Illustration">
+                        <div>
+                            <h3>189 Mio</h3>
+                            <p>Websites are running good</p>
+                        </div>
+                    </div>
+                    <div>
+                        <a href="">Explore More</a>
+                        <a href=""><i class="far fa-desktop"></i> Schedule a Demo</a>
+                    </div>
+                </div>                
             </article>
         </section>
+        <section aria-labelledby="showcase">
+            <h2>Our Showcase</h2>
+            <p>They built amazing website to help more people around the world by using our recommendation services and products</p>
+            <div>
+                <figure>
+                    <img src="assets/img/showcase1.png" alt="Showcase 1 Illustration">
+                    <figcaption>Showcase 1 Illustration</figcaption>
+                </figure>
+                <figure>
+                    <img src="assets/img/showcase2.png" alt="Showcase 2 Illustration">
+                    <figcaption>Showcase 2 Illustration</figcaption>
+                </figure>
+                <figure>
+                    <img src="assets/img/showcase3.png" alt="Showcase 3 Illustration">
+                    <figcaption>Showcase 3 Illustration</figcaption>
+                </figure>
+                <figure>
+                    <img src="assets/img/showcase4.png" alt="Showcase 4 Illustration">
+                    <figcaption>Showcase 4 Illustration</figcaption>
+                </figure>
+            </div>
+        </section>
+        <section aria-labelledby="faq">
+            <h2>Frequently Asked Questions</h2>
+            <div>
+                <details>
+                    <summary>Why Do We Need to Use Kapp?</summary>
+                    <p>Kapp is able to develop by themselve without removing th
+                        parents permission and lorem dolor si amet fully
+                        run network at 100% avoiding data-loss at any moments</p>
+                </details>
+                <details>
+                    <summary>Do we need to pay 6 months per item?</summary>
+                    <p>Kapp is able to develop by themselve without removing th
+                        parents permission and lorem dolor si amet fully
+                        run network at 100% avoiding data-loss at any moments</p>
+                    <a href="">Learn More</a>
+                </details>
+                <details>
+                    <summary>How to migrate from other service?</summary>
+                    <p>Kapp is able to develop by themselve without removing th
+                        parents permission and lorem dolor si amet fully
+                        run network at 100% avoiding data-loss at any moments</p>
+                </details>
+                <details>
+                    <summary>What if data doesn’t get stored?</summary>
+                    <p>Kapp is able to develop by themselve without removing th
+                        parents permission and lorem dolor si amet fully
+                        run network at 100% avoiding data-loss at any moments</p>
+                </details>
+                <details>
+                    <summary>Can we guarantee no any loss at all?</summary>
+                    <p>Kapp is able to develop by themselve without removing th
+                        parents permission and lorem dolor si amet fully
+                        run network at 100% avoiding data-loss at any moments</p>
+                </details>
+                <details>
+                    <summary><i class="far fa-envelope"></i> Send e-mail to us for other questions</summary>
+                    <p>Kapp is able to develop by themselve without removing th
+                        parents permission and lorem dolor si amet fully
+                        run network at 100% avoiding data-loss at any moments</p>
+                </details>                           
+            </div>
+        </section>
+        <section>
+            <article>
+                <aside><i class="far fa-globe"></i>We host more than 120,000 websites</aside>
+                <h2>Start Growing Today</h2>
+                <p>We provide a variety of servers to grow your users
+                    acquisition much user-friendly and boosting up sales.</p>
+                <div>
+                    <a href="">Explore More</a>
+                    <a href=""><i class="far fa-desktop"></i> Schedule a Demo</a>
+                </div>
+            </article>
+            <div>
+                <div>
+                    <img src="assets/img/scroll.svg" alt="Scroll Illustration">
+                    <p>Web Crawl</p>
+                </div>
+                <div>
+                    <img src="assets/img/cpu-charge.svg" alt="CPU Charge Illustration">
+                    <p>Fast Report</p>
+                </div>
+                <div>
+                    <img src="assets/img/security-user.svg" alt="Security User Illustration">
+                    <p>Anti DDoS</p>
+                    <a href="">Learn More</a>
+                </div>
+                <div>
+                    <img src="assets/img/status-up.svg" alt="Status Up Illustration">
+                    <p>Auto Scale</p>
+                </div>
+                <div>
+                    <img src="assets/img/candle.svg" alt="Candle Illustration">
+                    <p>AI Perform</p>
+                </div>
+                <div>
+                    <img src="assets/img/crown.svg" alt="Crown Illustration">
+                    <p>Top Plugins+</p>
+                </div>
+            </div>
+        </section>
     </main>
+    <footer>
+        <section>
+            <a href="#">
+                <img src="assets/img/logo.svg" alt="Logo WeServe" title="Logo WeServe" width="38" height="38">
+                <span>WeServe</span>
+            </a>
+            <p>We host your empire business today using the latest technologies.</p>
+            <div>
+                <a href=""><i class="far fa-envelope"></i></a>
+                <a href=""><i class="far fa-globe"></i></a>
+                <a href=""><i class="fas fa-phone"></i></a>
+                <a href=""><i class="fab fa-youtube"></i></a>
+            </div>
+        </section>
+        <section>
+            <div>
+                <h2>Products</h2>
+                <a href="">Powerful Reports</a>
+                <a href="">Blockchain</a>
+                <a href="">Auto Backup</a>
+                <a href="">Data Science</a>
+                <a href="">Auto-Scaling Up</a>
+            </div>
+            <div>
+                <h2>Resources</h2>
+                <a href="">Support 24/7</a>
+                <a href="">Help Center</a>
+                <a href="">How-to Instructions</a>
+                <a href="">Blog & Tips</a>
+                <a href="">About Us</a>
+            </div>
+            <div>
+                <h2>Company</h2>
+                <a href="">Privacy and Policy</a>
+                <a href="">Term and Condition</a>
+                <a href="">Investor Relations</a>
+                <a href="">Join With Us</a>
+                <a href="">Our Statistics</a>
+            </div>
+        </section>
+        <section>
+            <p>All Rights Reserved • Copyright Weserve by Asti</p>
+        </section>
+    </footer>
 </body>
 </html>
