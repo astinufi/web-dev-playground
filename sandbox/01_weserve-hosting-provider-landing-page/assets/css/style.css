@@ -1,0 +1,36 @@
+/* || RESET */
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+input,
+button,
+textarea{
+    font: inherit;
+}
+
+/* || VARIABLES */
+:root{
+    /* FONTS */
+    
+
+    /* COLORS */
+    --BUTTON-COLOR:#640EF1;
+    --HEADING-COLOR:#080C2E;
+    --FONT-COLOR:#5D5D7C;
+    --BGCOLOR:#F1F4F5;
+    --BGCARD:#ffffff;
+    --BGFOOTER:#070C29;
+
+
+}
