@@ -19,11 +19,20 @@ textarea{
     font: inherit;
 }
 
-/* || VARIABLES */
-:root{
-    /* FONTS */
-    
 
+
+/* || VARIABLES */
+@font-face{
+    font-family: 'ClashDisplay';
+    src: url('../fonts/ClashDisplay/WEB/fonts/ClashDisplay-Semibold.woff2') format('woff2'),
+         url('../fonts/ClashDisplay/WEB/fonts/ClashDisplay-Semibold.woff') format('woff'),
+         url('../fonts/ClashDisplay/WEB/fonts/ClashDisplay-Semibold.ttf') format('truetype'),
+         url('../fonts/ClashDisplay/OTF/ClashDisplay-Semibold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root{
     /* COLORS */
     --BUTTON-COLOR:#640EF1;
     --HEADING-COLOR:#080C2E;
@@ -33,4 +42,16 @@ textarea{
     --BGFOOTER:#070C29;
 
 
+}
+
+/* || UTILITY CLASSES */
+.offscreen{
+    position: absolute;
+    left: -10000px;
+}
+
+/* || GENERAL STYLES */
+html{
+    background-color: var(--BGCOLOR);
+    font-family: ;
 }

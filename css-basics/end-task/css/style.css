@@ -79,7 +79,7 @@ textarea{
 /* || UTILITY CLASSES */
 .offscreen{
     position: absolute;
-    left: -10000px;;
+    left: -10000px;
 }
 
 .nowrap{
